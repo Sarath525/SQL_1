@@ -1,0 +1,6 @@
+CREATE TABLE sales.orders (
+    order_id INTEGER PRIMARY KEY,
+    customer_id INTEGER,
+    order_date DATE,
+    order_total NUMERIC(10, 2)
+);
